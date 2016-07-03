@@ -1,0 +1,4 @@
+---
+
+- name: Install message of the day banners.
+  include: motd.yml

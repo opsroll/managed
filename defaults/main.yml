@@ -1,0 +1,5 @@
+---
+opsroll:
+  managed:
+    motd: placeholder
+

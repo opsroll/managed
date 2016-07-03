@@ -1,0 +1,14 @@
+---
+
+- name: Add Opsroll header to the instance.
+  template: >
+    src=00-header.j2
+    dest=/etc/update-motd.d/00-header
+
+- name: Add Opsroll support information.
+  template: >
+    src=01-support.j2
+    dest=/etc/update-motd.d/01-support
+
+ 
+
